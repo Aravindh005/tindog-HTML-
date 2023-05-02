@@ -1,0 +1,179 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-bold", sans-serif;
+}
+
+
+  
+p{
+    font-family: "Ubuntu";
+}
+
+ /* -------------------------------------------heading */
+.big-heading{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* ---------------------------------------------title */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    }
+    .nav-item{
+        padding: 0 20px 0 20px;
+    }
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+  
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+   
+}
+.intro{
+    
+    line-height: 2;
+}
+.dogphone{
+   
+    margin: 0 auto 0 auto;
+    left: 35px;
+   
+}
+.rotated {
+    align-items: center;
+    width: 60%;
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    position: absolute;
+   
+}
+/* ------------------------------------------button */
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* --------------------------------------------features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.features-heading{
+    font-weight: bold;
+}
+.featureBox{
+    text-align: center;
+    padding: 5%;
+   
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* ---------------------------------------testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    
+    
+}
+.testimonial-text{
+    color: #fff;
+    font-size: 2.8rem;
+    margin: 0 25% 0 25%;
+}
+.carousel-item{
+    padding: 5% 0 5% 0;
+}
+.testimonial-image{
+    width: 12%;
+    border-radius: 100%;
+    margin-top: 2%;
+}
+
+/* ------------------------------------------press */
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.logos{
+    width:15%;
+    margin: 0 2% 0 2%;
+}
+
+/* ------------------------------------------pricing */
+
+.price-heading{
+    font-family: "Montserrat-bold", sans-serif;
+    color: black;
+    font-size: 3rem;
+}
+.price-text{
+    color: black;
+    font-size: 2.8rem;
+    line-height: 2;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* ----------------------------------------call to action */
+.callAction{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.Action-heading{
+    width: 40%;
+    font-size: 2rem;
+   margin: 0 auto 0 auto;
+   position: relative;
+   top: 30px;
+}
+
+/* ------------------------------------------footer */
+#footer{
+    text-align: center;
+}
+
+/* ------------------------------------------mobile changes */
+@media (max-width:1028px)
+{
+    .rotated{
+        position:static;
+        transform: rotate(0);
+    }
+    .introAndDog{
+        text-align: center;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
